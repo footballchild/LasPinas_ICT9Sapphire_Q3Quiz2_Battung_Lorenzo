@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>9-SAPPHIRE FORTNITE GLOBAL CHAMPIONSHIPS</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  	<style>
+  		body {
+  			text-align: center;
+  			background-image: url(fn.au_fs_2e734906-908c-4ce4-8d63-c387baa549ab);
+  			background-size: cover;
+  			background-repeat: no-repeat;
+  		}
+  		h1 {
+  			padding: 25px;
+  			margin: 25px;
+  			border: solid;
+  		}
+  		summary {
+  			border: solid;
+  		}
+  		img {
+  			width: 500px;
+
+  		}
+  		button {
+  			background-color: darkred;
+  			color: white;
+  		}
+  	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<h1>TICKETS</h1>
+
+		<details onchange ="message()">
+	<summary>Personal Information</summary>
+		<i>Fill out the blanks below. </i>
+		<p> FULL NAME </p>
+<label for="Fullname"></label>
+  <input type="text" id="full name" name="full name">
+
+
+
+<br>
+<br>
+
+<p> EMAIL </p>
+<label for="email"></label>
+  <input type="text" id="email" name="email">
+
+  <br>
+  <br>
+
+  <button type="button" onclick="check_discount()"> Submit </button>
+		</form>
+
+	</div>
+
+<br>
+<br>
+
+
+<details onchange ="message()">
+	<summary>Ticket Price</summary>
+		<i>Check your prices sigma </i>
+		<div class="container">
+		<form>
+			<label>Seat area:</label>
+			<select class="form-select" id="meal">
+				<option value="none"> Select </option>
+				<option value="250"> 1st Row </option>
+				<option value="300"> 2nd Row </option>
+				<option value="250"> 3rd Row </option>
+				<option value="300"> 4th Row </option>
+				<option value="250"> 5th Row </option>
+				<option value="300"> 6th Row </option>
+				<option value="250"> 7th Row </option>
+				<option value="300"> 8th Row </option>
+				<option value="250"> 9th Row </option>
+				<option value="300"> 10th Row </option>
+			</select>
+<br>
+			<label>Choose an Option:</label>
+			<select class="form-select" id="discount">
+				<option value="none"> Select </option>
+				<option value="0.2"> Government Official </option>
+				<option value="0.3"> VIP </option>
+				<option value="0"> Regular </option>
+			</select>
+<br>
+			<button type="button" onclick="check_discount()"> Price </button>
+		</form>
+		</details>
+
+			<script>
+			
+				function check_discount() {
+					var seat1 = document.getElementById ('meal').value;
+					var seat2 = document.getElementById ('discount').value;
+					var seat3 = document.getElementById ('meal').value;
+					var seat4 = document.getElementById ('discount').value;
+					var seat5 = document.getElementById ('meal').value;
+					var seat6 = document.getElementById ('discount').value;
+					var seat7 = document.getElementById ('meal').value;
+					var seat8 = document.getElementById ('discount').value;
+					var seat9 = document.getElementById ('meal').value;
+					var seat10 = document.getElementById ('discount').value;
+
+					var final_rate = meal1 - (disc1 * meal1);
+
+					window.alert('Your Ticket price is ' + final_rate);
+				
+				}
+		</script>
+	</div>
+
+	
+
+<br>
+<br>
+		
+	<div class="container">
+		<details onchange ="message()">
+	<summary>Print Ticket</summary>
+		<i> No ticket no entry! </i>
+		</details>
+<br>
+<br>
+		<img src="CONTRACT.jpg">
+		<button type="button" onclick="check_discount()"> Print </button>
+		</form>
+
+		<h1> If u want to buy more just redo the process! </h1>
+
+	</div>
+</body>
+</html>
